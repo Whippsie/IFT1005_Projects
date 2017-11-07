@@ -6,6 +6,7 @@ body {
 
 .container {
 	padding: 20px;
+    margin-bottom:50px;
 }
 
 /* NAV BAR */
@@ -64,6 +65,27 @@ nav a.active {
   float: left;
   margin: 1rem 1.5rem 0 0;
   max-width: 12.5rem;
+}
+
+.left_col{
+    width:500px;
+    display:inline-block;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.contenuImg{
+    height:400px;
+    
+}
+
+.right_col{
+    margin-left:60px;
+    width:500px;
+    display:inline-block;
 }
 
 @media screen and (max-width: 39.9375em) {
