@@ -2,7 +2,7 @@
 	font-family: 'Sunday';
 	font-style: normal;
 	font-weight: 300;
-	src: local('Sunday'), url(Fonts/Sunday_Morning_Garage_Sale_by_Lydia_distracted.ttf) format('ttf');
+	src: local('Sunday'), url(../fonts/Sunday_Morning_Garage_Sale_by_Lydia_distracted.ttf) format('ttf');
 }
 
 body {
@@ -63,7 +63,7 @@ nav a.active {
 
 /* HERO IMAGE */
 .hero-section {
-  background: url('images/universe.jpg') 50% no-repeat;
+  background: url('../images/universe.jpg') 50% no-repeat;
   background-size: cover;
   height: 60vh;
   text-align: center;
@@ -73,7 +73,7 @@ nav a.active {
 }
 
 .hero-section-half {
-  background: url('images/universe.jpg') 50% no-repeat;
+  background: url('../images/universe.jpg') 50% no-repeat;
   background-size: cover;
   height: 30vh;
   text-align: center;
@@ -160,13 +160,13 @@ p{
 }
 
 #wDwarf{
-    background:url("Images/naine-blanche.jpg");
+    background:url("../images/naine-blanche.jpg");
     background-repeat: no-repeat;
 background-size: 300px 300px;
 }
 
 #wDwarf:hover{
-    background:url("Images/whitedwarf.jpg");
+    background:url("../images/whitedwarf.jpg");
     transition: background 0.25s ease-in-out;
     background-size: 300px 300px;
 }
