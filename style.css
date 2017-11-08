@@ -6,7 +6,14 @@ body {
 
 .container {
 	padding: 20px;
-    margin-bottom:50px;
+  margin-bottom:50px;
+}
+
+h3 a {
+  text-decoration:  none;
+  font-weight:      none;
+  background-color: none;
+  color:            black;
 }
 
 /* NAV BAR */
@@ -35,9 +42,21 @@ nav a.active {
     color: white;
 }
 
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color:black;
+}
+
 /* HERO IMAGE */
 .hero-section {
-  background: url('media/universe.jpg') 50% no-repeat;
+  background: url('images/universe.jpg') 50% no-repeat;
   background-size: cover;
   height: 60vh;
   text-align: center;
@@ -45,10 +64,29 @@ nav a.active {
   align-items: center;
   justify-content: center;
 }
+
+.hero-section-half {
+  background: url('images/universe.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 30vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-section-text {
     color: white;
     text-shadow: 1px 1px 2px black;
   }
+
+.hero-title {
+    font-size: 60px;
+}
+
+.hero-subtitle{
+  font-size: 20px;
+}
 
 /* Container */
 
@@ -114,6 +152,11 @@ p{
   .image-right .thumbnail, .image-right .thumbnail img {
     width: 100%;
   }
+}
+
+.image-full-decorator {
+  padding-top: 60px;
+  padding-bottom: 15px;
 }
 
 .footer {
