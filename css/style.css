@@ -13,7 +13,16 @@ body {
 
 .container {
 	padding: 20px;
-  margin-bottom:50px;
+    color:white;
+    margin-bottom:50px;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 h3 a {
@@ -173,7 +182,10 @@ p{
     position: relative;
     top: 50%;
     transform: translateY(-50%); 
-    background-color:#003366;
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+    
     color:white;
     padding: 0px 10px 0px 10px;
     border-radius: 15px;
@@ -182,7 +194,9 @@ p{
 .contenu_test{
     width:70%;
     position: relative;
-    background-color:#003366;
+     /* background-color: rgb(54, 25, 25); Fall-back for browsers that don't
+                                    support rgba */
+    background-color: rgba(54, 25, 25, .9);
     color:white;
     padding: 1px 10px 10px 10px;
     border-radius: 15px;
@@ -225,6 +239,79 @@ h1{
 .inline:visited{
     color:#FFCBA4;
 }
+
+/* Box */
+
+	.box {
+		margin-bottom: 2rem;
+		background: #FFF;
+	}
+
+		.box .image.fit {
+			margin: 0;
+			border-radius: 0;
+		}
+
+			.box .image.fit img {
+				border-radius: 0;
+			}
+
+		.box header h2 {
+			margin-bottom: 2rem;
+		}
+
+		.box header p {
+			text-transform: uppercase;
+			font-size: .75rem;
+			font-weight: 300;
+			margin: 0 0 .25rem 0;
+			padding: 0 0 .75rem 0;
+			letter-spacing: .25rem;
+		}
+
+			.box header p:after {
+				content: '';
+				position: absolute;
+				margin: auto;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 50%;
+				height: 1px;
+				background-color: rgba(0, 0, 0, 0.125);
+			}
+
+		.box .content {
+			padding: 3rem;
+		}
+
+		.box > :last-child,
+		.box > :last-child > :last-child,
+		.box > :last-child > :last-child > :last-child {
+			margin-bottom: 0;
+		}
+
+		.box.alt {
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.box .content {
+				padding: 2rem;
+			}
+
+		}
+
+	.box {
+		border-color: rgba(144, 144, 144, 0.25);
+	}
+
+	.align-center {
+		text-align: center;
+	}
 
 @media screen and (max-width: 39.9375em) {
   .image-left {
