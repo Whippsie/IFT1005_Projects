@@ -145,10 +145,46 @@ p{
 }
 
 .containerImg{
-    block;
+    
 }
+
+.parentImg{
+    width: 250px;
+    height: 250px;
+    display:inline-block;
+}
+
 .image{
-    display:inline;
+    display: inline-block;
+}
+
+.image:hover{
+
+}
+
+#naine1{
+    width: 250px;
+    height: 250px;
+    margin: 13px;
+    background-position:center center;
+    background-size:250px 250px;
+    transition:all 2s;
+    overflow:hidden;
+    background-image:url("../images/naine-blanche.jpg");
+}
+
+#naine1:hover{
+    transform:scale(1.2);
+}
+#naine2{
+    width: 250px;
+    height: 250px;
+    margin: 13px;
+    background-position:center center;
+    background-size:250px 250px;
+    transition:all 2s;
+    overflow:hidden;
+    background-image:url("../images/whitedwarf2.PNG");
 }
 
 #imageNeb{
@@ -158,13 +194,24 @@ p{
 
 #imageEvol{
     margin-left:10px;
-    display:inline-block;
     height:350px;
     transition: height 2s;
 }
 
 #imageEvol:hover{
     height:525px;
+}
+
+#wDwarf{
+    background:url("../images/naine-blanche.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+#wDwarf:hover{
+    background:url("../images/whitedwarf.jpg");
+    transition: background 0.25s ease-in-out;
+    background-size: 300px 300px;
 }
 
 #imageSeq{
@@ -212,17 +259,6 @@ p{
     width:600px;
 }
 
-#wDwarf{
-    background:url("../images/naine-blanche.jpg");
-    background-repeat: no-repeat;
-    background-size: 300px 300px;
-}
-
-#wDwarf:hover{
-    background:url("../images/whitedwarf.jpg");
-    transition: background 0.25s ease-in-out;
-    background-size: 300px 300px;
-}
 
 .funFact{
     font-family: Sunday, Arial;
