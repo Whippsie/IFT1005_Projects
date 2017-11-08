@@ -135,7 +135,31 @@ p{
 
 .image{
     display:inline-block;
-  background-size: cover;
+}
+
+#imageNeb{
+    display:inline-block;
+    max-width:600px;
+}
+
+#imageEvol{
+    margin-left:10px;
+    display:inline-block;
+    height:350px;
+    transition: height 2s;
+}
+
+#imageEvol:hover{
+    height:525px;
+}
+
+#imageSeq{
+    height:450px;
+    transition: height 2s;
+}
+
+#imageSeq:hover{
+    height:525px;
 }
 
 .contenu{
@@ -147,12 +171,12 @@ p{
     background-color:#003366;
     color:white;
     padding: 0px 10px 0px 10px;
+    border-radius: 15px;
 }
 
 .bloc{
-    padding-top:30px;
     padding-bottom:30px;
-    border-bottom:black solid 1px;
+    padding-left:20px;
 }
 
 #allPhases{
@@ -162,7 +186,7 @@ p{
 #wDwarf{
     background:url("../images/naine-blanche.jpg");
     background-repeat: no-repeat;
-background-size: 300px 300px;
+    background-size: 300px 300px;
 }
 
 #wDwarf:hover{
@@ -173,6 +197,18 @@ background-size: 300px 300px;
 
 .funFact{
     font-family: Sunday, Arial;
+}
+
+h1{
+    padding-left:20px;
+}
+
+.inline{
+    color:#ADD8E6;
+}
+
+.inline:visited{
+    color:#FFCBA4;
 }
 
 @media screen and (max-width: 39.9375em) {
