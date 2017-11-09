@@ -115,6 +115,7 @@ nav a.active {
   width: 100%;
 }
 
+
 .image-left {
   float: left;
   margin: 1rem 1.5rem 0 0;
@@ -138,6 +139,10 @@ p{
     
 }
 
+.omg{
+    font-size:24px;
+    color:pink;
+}
 .right_col{
     margin-left:60px;
     width:500px;
