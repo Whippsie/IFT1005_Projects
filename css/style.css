@@ -105,7 +105,6 @@ nav a.active {
 }
 
 /* Container */
-
 .caption {
   font-size: 0.9rem;
   text-align: center;
@@ -135,8 +134,6 @@ p{
 .contenuImg{
     height:300px;
     vertical-align: text-top;
-    
-    
 }
 
 .omg{
@@ -149,22 +146,32 @@ p{
     display:inline-block;
 }
 
-.containerImg{
-    
-}
-
 .parentImg{
     width: 250px;
     height: 250px;
     display:inline-block;
 }
 
-.image{
-    display: inline-block;
+.imageblock {
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
 }
 
-.image:hover{
+.image {
+    display: inline-block;
+    padding:10px;
+}
 
+@media screen and (max-width: 39.9375em) {
+  .image-left {
+    float: none;
+    max-width: 100%;
+    margin: 0;
+  }
+  .image, .image img {
+    width: 100%;
+  }
 }
 
 #naine1{
@@ -194,12 +201,10 @@ p{
 
 #imageNeb{
     display:inline-block;
-    max-width:600px;
 }
 
 #imageEvol{
-    margin-left:10px;
-    height:350px;
+    height:360px;
     transition: height 2s;
 }
 
@@ -243,25 +248,29 @@ p{
     border-radius: 15px;
 }
 
-.contenu_test{
-    width:70%;
+.contenu_test {
+    width:100%;
     position: relative;
      /* background-color: rgb(54, 25, 25); Fall-back for browsers that don't
                                     support rgba */
     background-color: rgba(54, 25, 25, .9);
-    color:white;
+    color: white;
     padding: 1px 10px 10px 10px;
     border-radius: 15px;
     margin-bottom:5px;
+
+}
+
+.min300height {
+  min-height: 225px;
 }
 
 .bloc{
-    padding-bottom:30px;
-    padding-left:20px;
+    padding: 30px;
 }
 
 #allPhases{
-    width:600px;
+    max-width:600px;
 }
 
 
@@ -321,7 +330,7 @@ h1{
 	z-index: 10;
 	height: 3em;
 	margin-top: -3em;
-	padding: 1rem;
+	padding: 1.5rem;
 	background-color: #333;
 	text-align: center;
 }
