@@ -294,6 +294,11 @@ li{
 .critere{
     color:#98fb98;
 }
+
+.marginAbout, .marginAbout>ul>li{
+    margin-left:40px;
+}
+
 @media screen and (max-width: 39.9375em) {
   .image-left {
     float: none;
