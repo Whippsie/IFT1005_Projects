@@ -158,32 +158,6 @@ h1 {
     margin:45px auto;
   }
 
-  .mail-message-area{
-    width:100%;
-    padding:0 15px;
-  }
-
-  .mail-message{
-    width: 100%;
-    background:rgba(255,255,255, 0.8) !important;
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    transition: all 0.7s;
-    margin:0 auto;
-    border-radius: 0;
-  }
-
-  .not-visible-message{
-    height:0px;
-    opacity: 0;
-  }
-
-  .visible-message{
-    height:auto;
-    opacity: 1;
-    margin:25px auto 0;
-  }
-
 /* Input Styles */
 
   .form{
@@ -197,16 +171,6 @@ h1 {
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
-  }
-
-  .form:hover{
-    border:1px solid #8BC3A3;
-  }
-
-  .form:focus{
-    color: white;
-    outline: none;
-    border:1px solid #8BC3A3;
   }
 
   .textarea{
