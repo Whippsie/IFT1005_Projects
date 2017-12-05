@@ -1,3 +1,4 @@
+
 /* Colors */
 :root {
     --primary-color: #141414;
@@ -6,7 +7,6 @@
     --background-color: #f4f4f4;
     --font-color: #FFF;
 }
-
 
 /* GLOBAL */
 html{
@@ -22,6 +22,10 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 40px;
 }
+
+.bg-white {
+      background-color: #ffffff;
+  }
 
 .margin-top-100 {
   margin-top:100px;
@@ -96,7 +100,7 @@ body {
   margin-bottom: 0;
 }
 
-.jumbotron-heading {
+h1 {
   font-weight: 300;
 }
 
